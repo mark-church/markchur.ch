@@ -7,46 +7,9 @@
           ><span class="font-display">{{ meta.siteName }}</span> <small>{{ pkg.version }}</small>
         </a>
 
-        {% for item in navigation.bottom %}
-          <a
-            href="{{ item.url }}"
-            {{
-              helpers.getLinkActiveState(item.url,
-              page.url)
-              |
-              safe
-            }}
-            >{{ item.text }}</a
-          >
-        {% endfor %}
       </nav>
 
-      <nav class="cluster" aria-label="{{ meta.navigation.ariaPlatforms }}">
-        <!-- gets the first item from the feed loop set in meta -->
-        <a href="{{ meta.blog.feedLinks[0].url }}" rel="alternate" type="{{ meta.blog.feedLinks[0].type }}">
-          <span class="visually-hidden">{{ meta.blog.feedLinks[0].title }}</span>
-          {% svg "misc/rss" %}
-        </a>
-
-        {% for key, value in personal.platforms %}
-          {% if value != "" %}
-            <!-- regular platforms -->
-            <a href="{{ value }}" rel="me">
-              <span class="visually-hidden">{{ key | capitalize }}</span>
-              {% svg 'platform/' + key %}
-            </a>
-          {% endif %}
-        {% endfor %}
-      </nav>
     </div>
 
-    {% include 'partials/theme-switch.njk' %}
-
-    <aside class="creator | mt-xl">
-      <a class="cluster text-step-min-1 gutter-xs no-underline" href="{{ meta.creator.website }}"
-        >Made with <span class="visually-hidden">love</span>
-        <span>{% svg "misc/heart", null, "color-text" %}</span> by {{ meta.creator.name }}</a
-      >
-    </aside>
   </div>
 </footer>

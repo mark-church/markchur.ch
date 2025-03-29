@@ -88,3 +88,12 @@ is-land:not(:defined) .details .control {
 .details details > * + * {
   margin-inline-start: 2.4ch;
 }
+
+.details details {
+  transition: background-color 0.3s ease;
+}
+
+.details details[open] {
+  background-color: #e5e5e5;  /* slightly darker gray */
+  padding: 1rem;  /* add some padding for better appearance */
+}

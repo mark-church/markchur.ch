@@ -3,9 +3,9 @@ layout: base
 schema: BlogPosting
 ---
 
-<article class="region" style="--region-space-top: var(--space-xl-2xl)">
+<article class="region" style="--region-space-top: var(--space-xs-s)">
   <div class="wrapper flow prose">
-    <h1 class="gradient-text">{{ title }}</h1>
+    <h1 class="gradient-text-linear">{{ title }}</h1>
 
     {% if image %}
       <!-- image -->
@@ -21,7 +21,7 @@ schema: BlogPosting
       %}
         <!-- tags -->
         {% for tag in tags %}{% if tag != "posts" %}
-          <a class="button" href="/tags/{{ tag }}" data-small-button> {{ tag }} </a>
+          <a class="button" href="tags/{{ tag | url }}" data-small-button> {{ tag }} </a>
         {% endif %}{% endfor %}
       {% endif %}
     </p>
