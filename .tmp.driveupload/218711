@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en" xml:base="http://localhost:8080/">
+  <title>My Web Development Blog</title>
+  <subtitle>Tell the word what you are writing about in your blog. It will show up on feed readers.</subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self" />
+  <link href="http://localhost:8080/" />
+  <updated>2025-03-30T11:55:37Z</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>Lene Saile</name>
+  </author>
+	<entry>
+      <title>Test post</title>
+      <link href="http://localhost:8080/articles/test-post/" />
+      <updated>2025-03-29T00:00:00Z</updated>
+      <id>http://localhost:8080/articles/test-post/</id>
+      <content type="html">
+				&lt;h1 id=&quot;title&quot;&gt;&lt;a href=&quot;http://localhost:8080/articles/test-post/#title&quot; class=&quot;heading-anchor&quot;&gt;Title&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;This is a test post.&lt;/p&gt;
+
+ 			</content>
+    </entry><entry>
+      <title>AI, Singularity, and Product Management</title>
+      <link href="http://localhost:8080/articles/ai-singularity-and-product-management/" />
+      <updated>2025-02-08T00:00:00Z</updated>
+      <id>http://localhost:8080/articles/ai-singularity-and-product-management/</id>
+      <content type="html">
+				&lt;p&gt;The theory of AGI super acceleration is that once AI is able to sufficiently self-improve, it will take off in an exponential curve and become so intelligent that we cannot possibly predict what it will do or what will happen after that point. See the &lt;a href=&quot;https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer&quot; rel=&quot;noopener&quot;&gt;“Paperclip Maximizer” thought experiment&lt;/a&gt; to see the most extreme version of this. I personally don’t believe in this outcome and here’s why …&lt;/p&gt;
+&lt;h2 id=&quot;ai-meet-the-real-world&quot;&gt;&lt;a href=&quot;http://localhost:8080/articles/ai-singularity-and-product-management/#ai-meet-the-real-world&quot; class=&quot;heading-anchor&quot;&gt;AI, meet the real world&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The human mind, much like a computer, operates by building and maintaining an approximate simulation of the external world. Crucially, almost all &lt;em&gt;new&lt;/em&gt; knowledge is discovered through interaction with that external world – by testing hypotheses against reality. Babies learn to walk through trial and error, observing their own movements and the world’s responses. Scientists discover new drugs by observing their effects on biological systems. Pure theory, while powerful, rarely leads to breakthroughs in isolation. Experimentation and contact with the messy, unpredictable real world are almost always necessary for validation. Einstein’s Theory of Relativity, a monumental theoretical achievement, still required the observation of light bending during a solar eclipse to be empirically confirmed.&lt;/p&gt;
+&lt;div class=&quot;details flow&quot;&gt;
+    &lt;details id=&quot;title&quot;&gt;
+      &lt;summary&gt;Notable exceptions ... &lt;/summary&gt;
+While I acknowledge exceptions, I don&#39;t believe they fundamentally alter the core argument:
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Synthesis Across Diverse Knowledge:&lt;/strong&gt; Superintelligent AI, with vast knowledge across diverse fields, could potentially make novel discoveries by connecting the dots in ways humans haven’t.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deduction on Known Knowledge:&lt;/strong&gt; Superintelligent AI, with superhuman reasoning abilities, could deduce new knowledge from existing data. However, real world validation quickly becomes necessary as deduction strays further from the base knowledge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theoretical Sciences:&lt;/strong&gt; Certain fields, like cryptography and pure mathematics, are less reliant on direct interaction with the physical world. These areas might see more rapid advancements driven by AI. But even here, applications of these theoretical advancements often require real-world implementation and testing.&lt;/li&gt;&lt;/ul&gt;&lt;/details&gt;
+
+
+&lt;/div&gt;
+&lt;p&gt;My central argument is that AI’s progress towards a singularity is fundamentally constrained by the need for interaction with and observation of the real world. This world is messy, complex, slow-moving, and presents challenges in perception and manipulation that AI is still far from mastering. Contact with the real world acts as an unavoidable “friction” on the discovery of new knowledge. This doesn’t mean AI won’t continue to develop rapidly, but it will likely slow progress down to timescales more comparable to human endeavors.&lt;/p&gt;
+&lt;p&gt;Shifting from the theoretical to the practical, let’s consider the implications for my own field: Product Management. Will PMs be replaced by polite, efficient chatbots anytime soon? I believe the answer to this question, and for any profession, hinges on the degree of real-world interaction required.&lt;/p&gt;
+&lt;p&gt;Product management, at its core, revolves around three key pillars:&lt;/p&gt;
+&lt;ol class=&quot;list&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Discovery:&lt;/strong&gt; Gathering and analyzing diverse information sources to inform product strategy. This includes direct customer interaction (interviews, surveys, user testing), competitor analysis, market research, and internal innovation assessments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Execution:&lt;/strong&gt; Collaborating with design and engineering teams to translate discoveries and product plans into a functional product. This involves constant communication, negotiation, and problem-solving.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales (Influence &amp;amp; Advocacy):&lt;/strong&gt; “Sales” in this context is broader than just selling to customers. It encompasses communicating the product vision, value proposition, and launch plan to both internal stakeholders (to secure resources and alignment) and external audiences (customers, partners).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Across all three pillars, “contact with the real world” is paramount. And the most crucial aspect of this contact is &lt;em&gt;communication&lt;/em&gt;. All of these functions require extensive and nuanced communication with various parties, both inside and outside the company.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Communication Challenge: Beyond Simple Email&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s illustrate the complexity of communication with a seemingly simple example: email. Imagine we want an AI agent to fully manage a PM’s inbox. What would it need to do, beyond just generating text?&lt;/p&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Whether to or When to Write the Email:&lt;/strong&gt; This is arguably the most challenging aspect. Many emails are proactive – triggered by noticing a gap, identifying an opportunity, or needing to bring people together around a potential problem. The decision of &lt;em&gt;if&lt;/em&gt; and &lt;em&gt;when&lt;/em&gt; to send an email depends on a complex web of factors, including:
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Understanding the current context of ongoing projects and conversations.&lt;/li&gt;
+&lt;li&gt;Prioritizing tasks and issues based on strategic goals.&lt;/li&gt;
+&lt;li&gt;Assessing the urgency and importance of different requests.&lt;/li&gt;
+&lt;li&gt;Anticipating potential problems and proactively addressing them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generating the Intent for the Email:&lt;/strong&gt; Before writing, the AI needs a clear understanding of the &lt;em&gt;purpose&lt;/em&gt; of the email. Is it to inform, persuade, request action, gather feedback, or something else? This intent shapes the entire message.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the email:&lt;/strong&gt; The AI needs to follow email and professional etiquette and adjust its tone to the situation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Who to Write the Email To:&lt;/strong&gt; Identifying the correct recipients (and CC/BCC recipients) requires understanding relationships, responsibilities, and the appropriate communication channels within the organization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reading and understanding incoming emails:&lt;/strong&gt; Responding to incoming emails in a relevant way and building the responses in the context of the conversation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Following up on emails:&lt;/strong&gt; Knowing if/when to follow up and adapting to the feedback it is receiving.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nonverbal and subtle clues:&lt;/strong&gt; A phone call or a face-to-face chat are very different from an email - AI needs to recognize body language, human emotion, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This simple email example highlights the depth of contextual understanding, strategic thinking, and interpersonal skills required for effective communication – skills that are still primarily within the human domain.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion: Augmentation, Not Replacement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;While AI will undoubtedly transform product management, I believe it will do so through &lt;em&gt;augmentation&lt;/em&gt;, not complete replacement. AI can automate repetitive tasks, analyze vast datasets, personalize user experiences, and provide valuable insights. It can assist with drafting emails, scheduling meetings, summarizing documents, and even generating initial product ideas.&lt;/p&gt;
+&lt;p&gt;However, the core of product management – understanding human needs, building relationships, navigating complex organizational dynamics, making strategic decisions in the face of uncertainty, and driving innovation through real-world interaction – will remain firmly in the hands of human product managers. The future of product management is not about being replaced by AI, but about learning to leverage its power to become &lt;em&gt;more&lt;/em&gt; effective, more insightful, and ultimately, more human. The singularity might be a distant theoretical possibility, but in the world of product management, we’re entering an era of powerful human-AI collaboration.&lt;/p&gt;
+
+ 			</content>
+    </entry></feed>

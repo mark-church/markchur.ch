@@ -1,6 +1,6 @@
 <li>
     <h2 slot="headline">
-      <a href="{{ item.url | url }}" class="blog-link">{% include "partials/date.njk" %}&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;{{ item.data.title }}</a>
+      <a href="{{ item.url | url }}" class="blog-link">{{ item.data.title }}&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;{% include "partials/date.njk" %}</a>
     </h2>
 </li>
 
