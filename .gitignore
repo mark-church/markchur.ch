@@ -11,3 +11,9 @@ src/_includes/scripts
 
 # secret data
 .env
+
+.setup.md
+
+.DS_Store
+
+.*
