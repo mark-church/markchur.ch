@@ -1,0 +1,19 @@
+.details {
+  background-color: var(--color-bg-secondary, #f5f5f5); /* fallback light gray */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.details details {
+  color: inherit;
+}
+
+.details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.details summary:hover {
+  color: var(--color-primary, #333);
+} 
